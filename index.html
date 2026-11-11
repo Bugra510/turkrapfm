@@ -89,7 +89,7 @@ header {
 .nav-links {
     display: flex;
     gap: 27px;
-    list-style: none;
+    list-: none;
 }
 
 .nav-links a {
@@ -544,6 +544,14 @@ footer {
     .footer-content,
     .topbar-content {
         flex-direction: column;
+    }
+}
+    /* Mobil cihazlarda görselleri küçült */
+@media (max-width: 750px) {
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
     }
 }
 </style>
